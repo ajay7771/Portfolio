@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://<your-github-ajay7771>.github.io/<portfolio>",
+  "homepage": "https://Ajay7771.github.io/portfolio",
   "eslintConfig": {
     "extends": [
       "react-app",
