@@ -1,12 +1,17 @@
 // src/App.jsx
 import "./index.css";
+import profile from "./profile.jpg";
 
 function App() {
   return (
     <div className="app">
       {/* Navbar */}
       <header className="navbar">
-        <div className="logo">Ajay<span>.</span></div>
+        <div className="logo">
+  <div className="logo-circle">Ajay</div>
+  <span className="logo-text">Portfolio</span><span className="dot">.</span>
+</div>
+
         <nav>
           <a href="#home">Home</a>
           <a href="#about">About</a>
@@ -36,7 +41,9 @@ function App() {
 
         <div className="hero-right">
           <div className="profile-card">
-            <div className="profile-photo" />
+            {/* <div  src="profile.jpg" alt="Profile" className="profile-photo"/> */}
+            <img src={profile} alt="Profile" className="profile-photo" />
+
             <p className="profile-role">Front-End Developer</p>
             <p className="profile-location">Hyderabad, India</p>
           </div>
